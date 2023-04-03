@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fcfcfc;
+}
+
+html{
+    background: white;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    font-size: 2.4rem;
+    /* border: solid black; */
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* z-index: 9999; */
+}
+
+ .background-section1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./modern-office-building-low-angle-view-skyscrapers-city-singapore-modern-office-building-low-angle-view-skyscrapers-city-singapore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border: solid blue 2px;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    height: 40.56rem;
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.menu-bars {
+    max-width: 30px;
+    background: transparent;
+}
+
+.section-1 .background-section1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section-1 .background-section1 .title-container {
+    border: solid red 3px;
+    background: transparent;
+    transform: translate(0%,0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    align-content: center;
+    z-index: 3;
+    width: 700Px;
+    height: 400px;
+}
+
+.section-1 .background-section1 .title-container .title-1 {
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 5rem;
+/*     transform: translate(45%, 45%);
+ */    
+}
+
+.section-1 .background-section1 .title-container .text-p{
+    background-color: transparent;
+    color: white;
+}
+
+.container-flex{
+    align-content: center;
+    border: solid pink 2px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    flex-wrap: nowrap;
+}
+
+.container-flex div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+.container-flex div.cell-1{
+    background-color: #333333;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container-flex div.cell-2{
+    background-color: #d61728;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container-flex div.cell-3{
+    background-color: rgb(134, 12, 94);
+    font-size: 2rem;
+    justify-content: center;
+    padding: 15px;
+}
