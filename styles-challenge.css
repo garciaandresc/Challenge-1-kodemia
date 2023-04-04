@@ -167,7 +167,7 @@ header{
 }
 
 .section-3{
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     background-color: rgb(99, 34, 90) ;
     height: 800px;
     width: 100%;
@@ -220,4 +220,250 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: top;
+}
+
+.section-4{
+    box-sizing: border-box;
+    background-color: red;
+    display: block;
+    height: 800px;
+    max-width: 100%;
+}
+
+.section-4-container{
+    margin-top: 50px;
+    align-self: center;
+    background-color: transparent;
+    /* border: solid 2px blueviolet; */
+    display: block;
+    transform: translate(35%,20%);
+    height: 723px;
+    width: 55%;
+}
+
+.container-table{
+    border: solid white 2px;
+    background: white;
+    height: 531px;
+    margin-top: -51px;
+    width: 100%;
+}
+
+.container-table-2{
+   /*  border: solid rgb(141, 97, 167) 2px; */
+    background: white;
+    height: 500px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+.square-1{
+    /* border: solid 2px yellow; */
+    display: flex;
+    flex: 0 0 50%;
+    height: 100%;
+    max-width: 50%;
+}
+
+.square-1-1{
+    display: flex;
+}
+
+.square-1-1-copy{
+    position: relative;
+    flex: 1;
+    height: 100%;
+    max-width: 100%;
+    /* border: solid pink 2px; */
+}
+
+.square-text{
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.second-container{
+   /*  border: dashed rgb(141, 124, 50) 2px; */
+    display: flex;
+    height: auto;
+    min-height: 125px;
+    width: 515px;
+}
+
+.second-container-text{
+    position: relative;
+    flex:1;
+    max-width: 100%;
+    /* border: dotted 1px black; */
+}
+
+.diamond{
+    /* border: solid 1px black; */
+    background: transparent;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 40px;
+}
+
+.second-container-text-text{
+    font-size: 1.5rem;
+    align-content: center;
+    /* justify-content: center; */
+    padding-left: 140px;
+    padding-top: 0px;
+}
+
+.paragraph-3{
+    font-size: .8rem;
+    font-style: italic;
+    color: rgb(184, 184, 184);
+    margin: 10px 40px 10px 140px;
+    word-wrap: break-word;
+}
+
+.third-container{
+   /*  border: dashed 2px red; */
+    display: flex;
+    height: auto;
+    min-height: 125px;
+    width: 515px;
+}
+
+.third-container-text{
+    position: relative;
+    flex: 1;
+    max-width: 100%
+}
+
+.img-group{
+    /* border: solid 1px black; */
+    background: transparent;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 40px;
+}
+
+.third-container-text-text{
+    font-size: 1.5rem;
+    align-content: center;
+    /* justify-content: center; */
+    padding-left: 140px;
+    padding-top: 0px;
+}
+
+.paragraph-4{
+    font-size: .8rem;
+    font-style: italic;
+    color: rgb(184, 184, 184);
+    margin: 10px 40px 10px 140px;
+    word-wrap: break-word;
+}
+
+/* ------------------ */
+
+.fourth-container{
+    /* border: dashed 2px red; */
+    display: flex;
+    height: auto;
+    min-height: 125px;
+    width: 515px;
+}
+
+.fourth-container-text{
+    position: relative;
+    flex: 1;
+    max-width: 100%
+}
+
+.img-group-2{
+    /* border: solid 1px black; */
+    background: transparent;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 40px;
+}
+
+.fourth-container-text-text{
+    font-size: 1.5rem;
+    align-content: center;
+    /* justify-content: center; */
+    padding-left: 140px;
+    padding-top: 0px;
+}
+
+.paragraph-5{
+    font-size: .8rem;
+    font-style: italic;
+    color: rgb(184, 184, 184);
+    margin: 10px 40px 10px 140px;
+    word-wrap: break-word;
+}
+
+/* -------------------- */
+
+.square-2{
+    background-image: url(./bearded-man.jpg);
+    /* background-position: 50% 50%; */
+    /* border: solid 2px rgb(0, 0, 0); */
+    display: flex;
+    flex: 0 0 150%;
+    height: 100%;
+    max-width: 100%;
+}
+
+/* ---------------------------------------- */
+
+.section-5{
+    background: white;
+    border: dashed 2px blue;
+    height: 87.5rem;
+    width: 100%;
+}
+
+/* .container-grid{
+    display: inline-grid;
+    column-gap: .3100rem;
+    background-color: transparent;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 440px 230px;
+    padding: .3rem;
+    row-gap: .3100rem;
+    margin-top: 10px;
+} */
+
+.section-5-container{
+    border: solid 2px white;
+    align-items: center;
+    background-color: white;
+    border: dotted 2px pink;
+    display: inline-grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 4.0625rem;
+    gap: 16px;
+    transform: translate(35%,0);
+    width: 60%;
+    height: 900Px;
+}
+
+.section-5 .section-5-container .block-1{
+    background-image: url(./modern-office-building-low-angle-view-skyscrapers-city-singapore-modern-office-building-low-angle-view-skyscrapers-city-singapore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-5 .section-5-container .block-2{
+    background-color: red;
+}
+
+.section-6-container{
+    background-color:rgb(56, 24, 107);
+    height: 35rem;
+    width: 100%;
 }
